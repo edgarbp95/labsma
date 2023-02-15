@@ -15,9 +15,9 @@ const LabTest = () => {
 
   return (
     <div className={`flex flex-col gap-3 bg-slate-100 ${height} rounded-md overflow-hidden py-4 px-6 `}>
-        <div className='flex justify-between'>
+        <div className='flex justify-between' onClick={setTest}>
             <h3 className='text-xl font-semibold'>Ejemplo de Prueba</h3>
-            <div className='' onClick={setTest}>
+            <div className='' >
                 {height=="close" ? <AiOutlineArrowDown /> : <AiOutlineArrowUp />}
             </div>
         </div>

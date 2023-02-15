@@ -486,7 +486,7 @@ html {
  
  .card-details {
   color: black;
-  margin-top: 20px;
+  
   gap: .5em;
   display: grid;
   place-content: center;
