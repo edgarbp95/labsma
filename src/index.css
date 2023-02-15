@@ -787,7 +787,7 @@ html {
 /* card */
 .plan-card {
   background: #fff;
-  width: 17rem;
+  width: 15rem;
   min-height: 330px;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -815,7 +815,7 @@ html {
 
 .etiquet-price {
   position: relative;
-  background: #fdbd4a;
+  background: var(--turquoise);
   width: 14.46rem;
   margin-left: -0.65rem;
   padding: .2rem 1.2rem;
@@ -850,7 +850,7 @@ html {
   right: 0px;
   width: 0;
   height: 0;
-  border-top: 13px solid #c58102;
+  border-top: 13px solid #2a6857;
   border-bottom: 10px solid transparent;
   border-right: 13px solid transparent;
   z-index: -6;
