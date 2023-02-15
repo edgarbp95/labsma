@@ -7,8 +7,10 @@ const BannerHome = () => {
     <div className='flex flex-col gap-3 mx-10 items-center relative bottom-16 sm:mx-0 sm:text-center md:gap-5'>
         <h4 className='text-xl text-white sm:text-base'>Laboratorio Panameño con 7 sucursales a nivel Nacional</h4>
         <h2 className='text-5xl text-white text-center w-1/2 sm:text-2xl md:text-4xl md:w-2/3 sm:w-full'>Exámenes de Laboratorio, Pruebas de Sangre, Diagnóstico, Perfiles, Análisis Bacteriológico</h2>
-        <h3 className='text-lg text-white sm:text-base'>AVALADOS PARA DIAGNÓSTICO DE COVID-19</h3>
-        <button className='button w-96 text-white border-white border-2 sm:w-2/3 sm:text-sm'>DIRIGETE A LA SUCURSAL MÁS CERCANA</button>
+        <h3 className='text-lg text-white sm:text-base '>AVALADOS PARA DIAGNÓSTICO DE COVID-19</h3>
+        <a href="#services" >
+            <button className='button w-96 scroll-smooth text-white border-white border-2 sm:w-2/3 sm:text-sm'>DIRIGETE A LA SUCURSAL MÁS CERCANA</button>
+        </a>
 
     </div>
 

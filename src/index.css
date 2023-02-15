@@ -8,6 +8,10 @@
   --bluew: #100e9f;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .servicess{
   background-image: url(https://img.freepik.com/vector-premium/onda-vectorial-azul-folleto-diseno-folleto-web-flujo-lineas-transparentes-azules-onduladas_206325-1017.jpg?w=2000);
   background-size: 100%;
