@@ -10,7 +10,7 @@ const InputSearch = () => {
     Search
   </label>
   <div className="relative w-96 my-4">
-    <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+    <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none sm:left-12">
       <svg
         aria-hidden="true"
         className="w-5 h-5 text-gray-500 dark:text-gray-400"
@@ -30,13 +30,13 @@ const InputSearch = () => {
     <input
       type="search"
       id="default-search"
-      className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-0"
+      className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:outline-none focus:ring-0 sm:w-3/4 sm:mx-auto"
       placeholder="¿Qué examen necesitas?"
       required=""
     />
     <button
       type="submit"
-      className="text-white absolute right-2.5 bottom-2.5 bg-turquoise hover:bg-teal-500 duration-300 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2"
+      className="text-white absolute right-2.5 bottom-2.5 bg-turquoise hover:bg-teal-500 duration-300 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 sm:right-14"
     >
       Buscar
     </button>

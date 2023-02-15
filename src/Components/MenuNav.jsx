@@ -38,10 +38,10 @@ const MenuNav = () => {
             <div className="hambur-3 menu-hambur"></div>
         </div>
         <div className={`menu-navbar-mobile ${animation}`}  ref={menuRef}>
-            <NavLink className='nav_menu_option' onClick={setMenu} to="/">Inicio</NavLink>
-            <NavLink className='nav_menu_option' onClick={setMenu} to="/solicitar-prestamo">LABSMA</NavLink>
-            <NavLink className='nav_menu_option' onClick={setMenu} to="/sobre-nosotros">SERVICIOS</NavLink>
-            <NavLink className='nav_menu_option' onClick={setMenu} to="/preguntas-frecuentes">CONTACTO</NavLink>
+            <NavLink className='nav_menu_option z-50' onClick={setMenu} to="/">Inicio</NavLink>
+            <NavLink className='nav_menu_option z-50' onClick={setMenu} to="/sobre-nosotros">LABSMA</NavLink>
+            <NavLink className='nav_menu_option z-50' onClick={setMenu} to="/pruebas-laboratorio">SERVICIOS</NavLink>
+            <NavLink className='nav_menu_option z-50' onClick={setMenu} to="/contacto">CONTACTO</NavLink>
         </div>
     </>
   )

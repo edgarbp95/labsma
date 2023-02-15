@@ -7,7 +7,7 @@ import Services from './Services'
 
 const ContactHome = () => {
   return (
-    <div className='flex relative justify-center w-full bg-blue-100 pt-56 prueba sm:flex-col sm:overflow-hidden sm:pt-44 md:pt-52 md:flex-col'>
+    <div id='services' className='flex relative justify-center w-full bg-blue-100 pt-56 prueba sm:flex-col sm:overflow-hidden sm:pt-44 md:pt-52 md:flex-col'>
       <div className='flex  relative w-1/2 justify-end items-start px-20 sm:justify-center md:justify-center md:w-full md:p-0'>
         {/* <img className="w-52 rounded-3xl relative top-32" src={lab1} alt="imagen de laboratorio" />
         <img className="w-52 rounded-3xl relative bottom-10 right-12" src={lab2} alt="laboratorio con muestras"  /> */}
